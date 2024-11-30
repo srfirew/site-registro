@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(230, 230, 230);
+}
+
+h1{
+    font-size: 50px;
+    color: brown;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: "Josefin Sans", sans-serif;
+    height: 40px;
+}
+
+form{
+    background-color: rgb(196, 193, 193);
+    height: 600px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+form div{
+    margin-top: 20px;
+}
+
+form input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(179, 178, 178);
+    font-size: 15px;
+}
+
+#data-container{
+    display: flex;
+    align-content: center;
+    width: 416px;
+}
+
+#idade{
+    width: 183.2px;
+    margin-right: 4px;
+}
+
+#idade::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(179, 178, 178);
+    font-size: 15px;
+    background-color: white;
+    width: 50px;
+}
+
+button i{
+    color: rgb(117, 116, 116);
+}
+
+#genero-container{
+    display: flex;
+    align-items: center;
+}
+
+.genero{
+    background-color: white;
+    border: 2px solid rgb(179, 178, 178);
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 0;
+    padding: 10px;
+}
+
+#email{
+    width: 393px;
+}
+
+#submit{
+    width: 150px;
+}
+
+select{
+    margin-right: 20px;
+}
+
